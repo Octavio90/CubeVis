@@ -1,0 +1,35 @@
+#################### OLAPSTATTEST ####################
+Cannot Find Table Information...Asking user for input
+#################### OLAPSTATTEST ####################
+Cannot Find Table Information...Asking user for input
+#################### OLAPSTATTEST ####################
+Cannot Find Table Information...Asking user for input
+***************START SQL Code Generation**************
+OLAPStatTest V 1.0
+Interface     : true
+Full d        : [diab, oldyn, sex]
+Partial d     : [diab, oldyn, sex]
+Full measure  : [lm]
+Partial m     : [lm]
+Tablename     : zmed655
+Algorithm     : 1
+DBMS          : postgresql
+pThreshold    : 25
+outfile       : olapstat.sql
+*******OPTIMIZATION**********
+SingleTable   : true
+
+
+++++++++++ PreCompute Method ++++++++++++
+Need to compute Pre-Compute Table
+Creating Table from Original Dataset
+Need to compute Table from Pre-Compute
+Creating MSV Table
+Creating CompStat Table
+Creating Empty Temp Results Tables
+Filling Temp Results Tables
+Creating Final Results Table
+***************END SQL Code Generation**************
+Number of subsets: 1
+#################### OLAPSTATTEST ####################
+Cannot Find Table Image Data Information...Asking user for input
